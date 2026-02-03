@@ -296,7 +296,7 @@ If you want to add a contact form:
 // Before: <div className="text-7xl">{image.emoji}</div>
 
 // After:
-<div className="bg-cover bg-center h-64" style={{backgroundImage: `url('/images/${image.id}.jpg')`}}></div>
+<div className="bg-cover bg-center h-64" style={{ backgroundImage: `url('/images/' + image.id + '.jpg')` }}></div>
 ```
 
 **In About Section (`src/components/AboutSection.tsx`):**
